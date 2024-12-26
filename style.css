@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     display: block;
     margin: 0;
@@ -126,5 +130,38 @@ body {
       line-height: 1.6;
       margin: 0 auto;
       max-width: 800px;
+  }
+  .gallery-block {
+    padding: 40px 20px;
+  }
+  
+  .gallery-block h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: "Artifika", serif;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-item img:hover {
+    transform: scale(1.03);
+  }
+  
+  .gallery-item p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .img-fluid {
+    width: 200px;
+    height: 400px;
+    cursor: pointer;
   }
   
