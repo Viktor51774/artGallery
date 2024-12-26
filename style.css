@@ -1,8 +1,8 @@
 html {
     scroll-behavior: smooth;
   }
-
-body {
+  
+  body {
     display: block;
     margin: 0;
     padding: 0;
@@ -110,6 +110,14 @@ body {
       text-align: center;
       background-color: #fff;
       color: #333;
+      border-radius: 20px;
+      margin-top: 40px;
+  
+      font-size: 18px;
+      line-height: 1.6;
+      margin: 0 auto;
+      max-width: 800px;
+      margin-top: 50px;
   }
   
   .portrait {
@@ -125,12 +133,6 @@ body {
     scale: 1.1;
   }
   
-  .about-block {
-      font-size: 18px;
-      line-height: 1.6;
-      margin: 0 auto;
-      max-width: 800px;
-  }
   .gallery-block {
     padding: 40px 20px;
   }
@@ -165,3 +167,25 @@ body {
     cursor: pointer;
   }
   
+  .contact-block {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .contact-block p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .link {
+    color: #111b2b;
+  }
