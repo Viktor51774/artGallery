@@ -1,0 +1,20 @@
+.gallery-block {
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card-deck {
+    max-width: 1400px;
+  }
+  
+  .gallery-item img {
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-item img:hover {
+    transform: scale(1.03);
+  }
+  

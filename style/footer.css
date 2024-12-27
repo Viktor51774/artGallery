@@ -1,0 +1,22 @@
+.contact-block {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .contact-block p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .link {
+    color: #111b2b;
+  }
